@@ -16,6 +16,9 @@
   "cds": {
     "server": {
       "port": 4008
+    },
+    "requires": {
+      "messaging": true
     }
   }, 
   "private": true
