@@ -1,3 +1,3 @@
 service JobService {
-    action executeJob (jobType: String) returns String;
+    event completed { jobId: String; jobType: String; }
 }

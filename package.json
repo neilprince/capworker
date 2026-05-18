@@ -18,7 +18,9 @@
       "port": 4008
     },
     "requires": {
-      "messaging": true
+      "messaging": {
+        "kind": "file-based-messaging"
+      }
     }
   }, 
   "private": true
